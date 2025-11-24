@@ -1,0 +1,6 @@
+def exclamations(text):
+    char_list = list(text)
+    for i in range(len(char_list)):
+        if char_list[i] == 'i':
+            char_list[i] = '!'
+    return ''.join(char_list)
