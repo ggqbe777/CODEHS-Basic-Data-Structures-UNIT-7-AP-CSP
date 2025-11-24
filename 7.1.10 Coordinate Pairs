@@ -1,7 +1,0 @@
-import math
-
-def distance(first_point, second_point):
-    dx = first_point[0] - second_point[0]
-    dy = first_point[1] - second_point[1]
-    sum_of_squares = pow(dx, 2) + pow(dy, 2)
-    return math.sqrt(sum_of_squares)
