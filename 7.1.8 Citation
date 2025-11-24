@@ -1,0 +1,6 @@
+author_name = ("Martin", "Luther", "King, Jr.")
+
+def citation(author_name):
+    return author_name[2] + ", " + author_name[0] + " " + author_name[1]
+
+print(citation(author_name))
