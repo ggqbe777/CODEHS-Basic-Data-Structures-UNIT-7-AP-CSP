@@ -1,0 +1,7 @@
+movies = ["Interstellar", "Minecraft movie", "Chainsaw man", "Pacific rim"]
+
+print(movies[0])
+
+movies[0] = "Star Wars"
+
+print(movies[0])
