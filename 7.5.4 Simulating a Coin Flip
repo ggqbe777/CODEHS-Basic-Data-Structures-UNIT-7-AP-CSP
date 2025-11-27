@@ -1,0 +1,9 @@
+import random
+
+# Generate a random number: 0 or 1
+flip = random.randint(0, 1)
+
+if flip == 0:
+    print("Heads")
+else:
+    print("Tails")
